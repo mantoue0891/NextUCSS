@@ -1,0 +1,46 @@
+body{
+  font-size: 1vw;
+  font-family: "Dancing Script";
+  font-style: italic;
+  background-color: #02010a;
+}
+a:visited{
+  text-decoration: none;
+}
+
+section{
+  width: 100%;
+}
+#cabecera{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border: 0px solid;
+}
+#cabecera  h1{
+  text-shadow: 2px 2px #02010a;
+  color: white;
+  display: inline-block;
+}
+#cabecera p{
+  float: right;
+  color: white;
+  display: inline-block;
+}
+#cabecera p a{
+  color: #ffffff;
+  width: auto;
+}
+
+#imagen1 {
+  background: #82c3a6;
+}
+#imagen1 section img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media {
+
+}
