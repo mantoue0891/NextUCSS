@@ -1,7 +1,6 @@
 body{
   font-size: 1vw;
   font-family: "Dancing Script";
-  font-style: italic;
   background-color: #02010a;
 }
 a:visited{
@@ -11,12 +10,27 @@ a:visited{
 section{
   width: 100%;
 }
+.actual{
+  text-decoration: none;
+}
+.centrado{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagen2{
+display: flex;
+flex-flow: row wrap;
+flex-grow: 2;
+height: 50%;
+}
 #cabecera{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
   -moz-border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
   border: 0px solid;
+  width: auto;
 }
 #cabecera  h1{
   text-shadow: 2px 2px #02010a;
@@ -32,15 +46,10 @@ section{
   color: #ffffff;
   width: auto;
 }
-
 #imagen1 {
   background: #82c3a6;
 }
-#imagen1 section img{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@media {
-
+#imagen2{
+  background: #d5c75f;
+  border: 1px;
 }
