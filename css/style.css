@@ -3,27 +3,39 @@ body{
   font-family: "Dancing Script";
   background-color: #02010a;
 }
-a:visited{
-  text-decoration: none;
-}
-
 section{
   width: 100%;
 }
+/* clase utilizada para dar estilo al menu */
 .actual{
   text-decoration: none;
 }
-.centrado{
+/* clase para centrar la imagen principal */
+.img1{
   display:block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid b
 }
-.imagen2{
-display: flex;
-flex-flow: row wrap;
-flex-grow: 2;
-height: 50%;
+/* clase para dar estilo a las columnas del index */
+.col-2{
+  display: flex;
+  flex-basis: 40%;
+  width: 100%;
 }
+/* clase para las imagenes del index para escritorio */
+.img2 {
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: auto;
+  padding-right: auto;
+  width: 50%;
+}
+
 #cabecera{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
@@ -48,8 +60,20 @@ height: 50%;
 }
 #imagen1 {
   background: #82c3a6;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+#imgCen {
+box-shadow: 2px 2px 2px #02010a;
 }
 #imagen2{
   background: #d5c75f;
   border: 1px;
 }
+
+#imagen2  div figure img {
+  box-shadow: 2px 2px 2px #02010a;
+}
+/* #imagen2 div figure img{
+  text-align: center;
+} */
