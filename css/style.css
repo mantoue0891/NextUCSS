@@ -62,6 +62,11 @@ footer{
   flex-wrap: 50%;
   width: 100%;
 }
+.col-3{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 .col-4{
   display: flex;
   flex-basis: 25%;
@@ -77,7 +82,24 @@ footer{
   color: #000000;
   width: auto;
 }
-
+.paisaje{
+  background: #d5c75f;
+  border: 1px;
+}
+.paisaje div img{
+  /* display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around; */
+}
+#paisaje1{
+box-shadow: 2px 2px 2px #02010a;
+}
+#paisaje2{
+  box-shadow: 2px 2px 2px #02010a;
+}
+#paisaje3{
+  box-shadow: 2px 2px 2px #02010a;
+}
 #cabecera{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
@@ -99,6 +121,7 @@ footer{
   color: white;
   display: inline-block;
   margin-left: 10px;
+  tex
 }
 #cabecera p a{
   color: #ffffff;
