@@ -85,21 +85,40 @@ footer{
 .paisaje{
   background: #d5c75f;
   border: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .paisaje div img{
+  border: 1px solid black;
+  width: 30%;
+  height: 30%;
+  box-shadow: 2px 2px 2px #02010a;
+  /* width: 100%; */
   /* display:flex;
   flex-flow: row wrap;
   justify-content: space-around; */
 }
-#paisaje1{
+/* #paisaje1{
 box-shadow: 2px 2px 2px #02010a;
+
 }
 #paisaje2{
   box-shadow: 2px 2px 2px #02010a;
+
 }
 #paisaje3{
   box-shadow: 2px 2px 2px #02010a;
+
 }
+#paisaje4{
+  box-shadow: 2px 2px 2px #02010a;
+}
+#paisaje5{
+  box-shadow: 2px 2px 2px #02010a;
+}
+#paisaje6{
+  box-shadow: 2px 2px 2px #02010a;
+} */
 #cabecera{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
@@ -193,6 +212,12 @@ box-shadow: 2px 2px 2px #02010a;
   display: flex;
   flex-basis: 50%;
   width: 100%
+  }
+  .col-3{
+    flex-direction: column;
+  }
+  .paisaje div img{
+    width: 100%;
   }
   #footer{
     font-size: 5vw;
