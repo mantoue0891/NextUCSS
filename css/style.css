@@ -3,11 +3,7 @@ body{
   font-family: "Dancing Script";
   background-color: #02010a;
 }
-/* header{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-} */
+
 section{
   width: 100%;
 }
@@ -98,7 +94,55 @@ footer{
   height: 30%;
   box-shadow: 2px 2px 2px #02010a;
 }
-
+.rebote{
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes slide {
+  0%{
+    transform: translate(0%,150%);
+  }
+  60%{
+    transform: translate(0%, 100%);
+  }
+  100%{
+    transform: translate(0%, 0%);
+  }
+}
+@-moz-keyframes slide {
+  0%{
+    transform: translate(0%,150%);
+  }
+  60%{
+    transform: translate(150%, -5%);
+  }
+  100%{
+    transform: translate(-5%,0%);
+  }
+}
+@-o-keyframes slide {
+  0%{
+    transform: translate(0%,150%);
+  }
+  60%{
+    transform: translate(150%, -5%);
+  }
+  100%{
+    transform: translate(-5%,0%);
+  }
+}
+@keyframes slide {
+  0%{
+    transform: translate(0%,150%);
+  }
+  60%{
+    transform: translate(150%, -5%);
+  }
+  100%{
+    transform: translate(-5%,0%);
+  }
+}
 #cabecera{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
